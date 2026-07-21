@@ -345,8 +345,59 @@ Complete and save the checklist.
 ---
 
 
+---
 
+## Task 15 - Oops, Wrong Change
 
+While updating the maintenance checklist, Mr Axel accidentally adds:
+
+```text
+Replace Engine
+```
+
+### Incorrect File
+
+```text
+Oil Change
+Tyre Pressure
+Brake Inspection
+Coolant Check
+Replace Engine
+```
+
+### Objective
+
+Remove the unwanted modification and return the file to the last saved version.
+
+### Expected Result
+
+```text
+Oil Change
+Tyre Pressure
+Brake Inspection
+Coolant Check
+```
+
+### Learning Point
+
+Sometimes mistakes are made before a commit is created.
+
+In this case, Mr Axel simply wants to discard the unwanted file changes and restore the file to its previous state.
+
+---
+
+# ✅ Expected Final Repository
+
+```text
+README.md
+EngineParts.txt
+BodyParts.txt
+InteriorParts.txt
+ServicePackage.txt
+ServiceChecklist.txt
+```
+
+---
 
 # 🎓 Git Concepts Practiced
 
@@ -365,8 +416,7 @@ Complete and save the checklist.
 | Save unfinished work | Stash |
 | Resume unfinished work | Stash Pop |
 | Rename workspace | Branch Rename |
-| Remove specific history | Interactive Rebase |
-| Move project backward | Reset |
+| Discard unwanted file changes | Restore |
 
 ---
 
@@ -386,5 +436,12 @@ By the end of this exercise, Mr Axel will know:
 
 **🚗 Welcome to Turbo Garage**  
 *Where car parts meet version control.*
+``
+
+
+
+
+
+
 
 
