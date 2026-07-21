@@ -344,59 +344,9 @@ Complete and save the checklist.
 
 ---
 
-## Task 15 - Remove Engine Management
 
-The garage has purchased a dedicated Engine Management System.
 
-### Objective
 
-Remove the Engine Parts work from project history.
-
-### Expected Result
-
-```text
-EngineParts.txt
-```
-
-should no longer exist in the branch history.
-
----
-
-## Task 16 - Remove The Checklist Feature
-
-Management decides maintenance tracking belongs in another system.
-
-### Objective
-
-Move the project back to a state before the checklist feature existed.
-
-### Expected Result
-
-```text
-ServiceChecklist.txt
-```
-
-should no longer exist in the latest version of the project.
-
----
-
-# ✅ Expected Final Repository
-
-```text
-README.md
-BodyParts.txt
-InteriorParts.txt
-ServicePackage.txt
-```
-
-### Removed During The Exercise
-
-```text
-EngineParts.txt
-ServiceChecklist.txt
-```
-
----
 
 # 🎓 Git Concepts Practiced
 
